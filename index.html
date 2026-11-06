@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script defer src="products.js"></script>
   <script defer src="script.js"></script>
 </head>
 <body>
@@ -21,7 +22,7 @@
     </a>
     <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
     <nav class="nav">
-      <a href="#home">Home</a><a href="#about">Our Story</a><a href="#gallery">Gallery</a><a href="#safety">Safety</a><a href="#contact">Contact</a>
+      <a href="#home">Home</a><a href="#about">Our Story</a><a href="#products">Products</a><a href="#gallery">Gallery</a><a href="#safety">Safety</a><a href="#contact">Contact</a>
     </nav>
     <a class="header-call" href="tel:8897117835">Call us <span>↗</span></a>
   </header>
@@ -56,6 +57,14 @@
       </div>
     </section>
 
+    <section class="products section" id="products">
+      <div class="section-heading"><div><div class="section-kicker">PRICE CATALOGUE</div><h2>Our product <em>list.</em></h2></div><p>Displayed prices are per listed pack or unit. Please contact the store to confirm details.</p></div>
+      <div class="product-tools"><input id="product-search" type="search" placeholder="Search products…" aria-label="Search products"><span id="product-count" aria-live="polite"></span></div>
+      <div class="product-grid" id="product-grid"></div>
+      <p class="gallery-disclaimer" id="product-empty">Products will appear here after the shop marks them as available in the local price editor.</p>
+      <p class="gallery-disclaimer">Catalogue information only. Availability, pack contents, applicable taxes and legal permissions must be confirmed before any transaction. No online order or payment is accepted on this website.</p>
+    </section>
+
     <section class="gallery section" id="gallery">
       <div class="section-heading"><div><div class="section-kicker">FESTIVE COLLECTION</div><h2>Explore the <em>gallery.</em></h2></div><p>Illustrative categories for browsing. Product availability and legality must be confirmed with the store and relevant authorities.</p></div>
       <div class="category-grid">
@@ -81,6 +90,6 @@
     </section>
   </main>
 
-  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">✦</span><span><strong>LAKISHMI</strong><small>CRACKERS</small></span></a><p>Light Up Your Celebrations</p><small>© <span id="year"></span> LAKISHMI CRACKERS. All rights reserved.</small><small class="footer-legal">Informational website only. No online sales, orders, payments or delivery are offered through this website.</small></footer>
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">✦</span><span><strong>LAKISHMI</strong><small>CRACKERS</small></span></a><p>Light Up Your Celebrations</p><small>© <span id="year"></span> LAKISHMI CRACKERS. All rights reserved.</small><small class="footer-legal">Informational product catalogue only. No online sales, orders, payments or delivery are offered through this website.</small></footer>
 </body>
 </html>
